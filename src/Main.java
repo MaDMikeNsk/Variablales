@@ -1,4 +1,3 @@
-import java.math.BigDecimal;
 
 public class Main {
 
@@ -24,16 +23,12 @@ public class Main {
         System.out.println("Double max value " + Double.MAX_VALUE);
         System.out.println("");
 
-        System.out.println(24.0*0.1);
-        System.out.println(24.0/0.0);                      //Infinity
-
         System.out.println(Math.nextUp(Double.NEGATIVE_INFINITY));
         System.out.println(Math.nextDown(Double.POSITIVE_INFINITY));
         System.out.println("========================================");
 
-        System.out.println(BigDecimal.valueOf(24.0*0.1));        //2.4000000000000004
-        System.out.println(0.1+0.2);                             //0.30000000000000004
-        System.out.println((double)((double)0.1 + (double)0.2)); //0.30000000000000004
+        System.out.println(24.0*0.1);  //2.4000000000000004
+        System.out.println(0.1+0.2);   //0.30000000000000004
     }
 }
 
